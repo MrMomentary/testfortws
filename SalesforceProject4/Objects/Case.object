@@ -10,7 +10,7 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>ChangeStatus</actionName>
-        <type>Default</type>
+        <type>default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>Clone</actionName>

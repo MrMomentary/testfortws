@@ -11,6 +11,6 @@
         
 
 
-        System.assertEquals(controller.changePasswordNotTested(),null);                           
+        System.assertEquals(controller.changePass   wordNotTested(),null);                           
     }    
 }

@@ -1,0 +1,10 @@
+<apex:page standardController="Account" 
+    extensions="Class01" showHeader="false">
+    <apex:outputText value="{!foo}" />
+
+    <div></div>
+
+
+
+
+</apex:page>

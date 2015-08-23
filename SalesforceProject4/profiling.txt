@@ -1,0 +1,14 @@
+﻿[1:20:15 PM] Credentials verification: Elapsed=1243, Finished=1:20:16 PM
+[1:21:27 PM] Downloading files: Elapsed=10037, Finished=1:21:37 PM
+[1:21:37 PM] Generating project file: Elapsed=71, Finished=1:21:37 PM
+[1:21:37 PM] Saving files: Elapsed=0, Finished=12:00:00 AM
+[1:21:38 PM] Project.SetBuildProject: Elapsed=0, Finished=1:21:38 PM
+[1:21:38 PM] Project.ProcessReferences: Elapsed=0, Finished=1:21:38 PM
+[1:21:38 PM] Project.ProcessFiles: Elapsed=68, Finished=1:21:38 PM
+[1:21:38 PM] ProjectNode.ProcessFiles.FirstLoop: Elapsed=65, Finished=1:21:38 PM
+[1:21:38 PM] ProjectNode.ProcessFiles.SecondLoop: Elapsed=0, Finished=1:21:38 PM
+[1:21:38 PM] Project.ProcessFolders: Elapsed=0, Finished=1:21:38 PM
+[1:21:38 PM] Project.LoadNonBuildInformation: Elapsed=0, Finished=1:21:38 PM
+[1:21:38 PM] Project.InitSccInfo: Elapsed=5, Finished=1:21:38 PM
+[1:21:38 PM] Project.RegisterSccProject: Elapsed=0, Finished=1:21:38 PM
+[1:21:38 PM] Project.LogIntoSalesforce: Elapsed=567, Finished=1:21:40 PM

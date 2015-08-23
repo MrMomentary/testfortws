@@ -2,6 +2,6 @@
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <customSettingsType>List</customSettingsType>
     <customSettingsVisibility>Protected</customSettingsVisibility>
-    <enableFeeds>false</enableFeeds>
+    <enableFeeds>falsefalse</enableFeeds>
     <label>asddLabel122</label>
 </CustomObject>

@@ -14,7 +14,7 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>Clone</actionName>
-        <type>Default</type>
+        <type>defaulT</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>CloneAsChild</actionName>

@@ -22,7 +22,7 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>Edit</actionName>
-        <type>Default</type>
+        <type>true</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>SaveEdit</actionName>

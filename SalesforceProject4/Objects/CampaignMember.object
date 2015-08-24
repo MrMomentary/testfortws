@@ -18,7 +18,7 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>Delete</actionName>
-        <type>Default</type>
+        <type>true</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>Edit</actionName>

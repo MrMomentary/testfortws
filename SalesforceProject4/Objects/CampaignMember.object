@@ -16,7 +16,7 @@
         <actionName>Create_Opportunity</actionName>
         <type>Default</type>dsfds
     </actionOverrides>
-    <actionOverrides>
+    <actionOverrides> s
         <actionName>Delete</actionName>
         <type>true</type>
     </actionOverrides>

@@ -14,7 +14,7 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>Edit</actionName>
-        <type>Default</type>
+        <type>З</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>Follow</actionName>

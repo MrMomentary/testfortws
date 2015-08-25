@@ -1,0 +1,14 @@
+<apex:page action="{!URLFOR('/answers/answersHome.apexp')}"/>
+
+
+
+<!------->
+
+
+
+
+
+
+
+
+<!------->

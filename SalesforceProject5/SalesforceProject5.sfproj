@@ -1,0 +1,1888 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1ac52455-5ece-4275-97a9-843d187c4d9e}</ProjectGuid>
+    <Login>vss.partner.developer@softheme.com</Login>
+    <Password>j6MkOPyehY7nnFT3V5iHXlOU5URFJ3nMXUoD+O7tVzrvXrk6A14UM5q2flN9MDPqmGZO+GjSKjU=</Password>
+    <SecurityToken>vaycnkptflSzHbzOwFMRsAV8RJqPjB3lU5TlREUnecxdSgP47u1XOu9euToDXhQzmrZ+U30wM+qYZk74aNIqNQ==</SecurityToken>
+    <Domain />
+    <Environment>0</Environment>
+    <ApexVersion>29.0</ApexVersion>
+    <Name>SalesforceProject5</Name>
+    <AssemblyName>SalesforceProject5</AssemblyName>
+    <RootNamespace>SalesforceProject5</RootNamespace>
+    <ProjectVersion>1</ProjectVersion>
+    <PackageVersion>0.18.5.4</PackageVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Folder Include="AnonymousApex" />
+    <Folder Include="Classes" />
+    <Folder Include="Components" />
+    <Folder Include="Objects" />
+    <Folder Include="Pages" />
+    <Folder Include="Soql" />
+    <Folder Include="StaticResources" />
+    <Folder Include="StaticResources\ic\" />
+    <Folder Include="StaticResources\ic\css\" />
+    <Folder Include="StaticResources\ic\fonts\" />
+    <Folder Include="StaticResources\ic\js\" />
+    <Folder Include="StaticResources\SiteSamples\" />
+    <Folder Include="StaticResources\SiteSamples\img\" />
+    <Folder Include="StaticResources\TestStatic1\" />
+    <Folder Include="StaticResources\TestStatic1\NissanStyle_Mini\" />
+    <Folder Include="StaticResources\TestStatic1\NissanStyle_Mini\img\" />
+    <Folder Include="StaticResources\ZipWithOneFileInside\" />
+    <Folder Include="StaticResources\ZipWithOneFileInside\Windows\" />
+    <Folder Include="Triggers" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\BatchableClass1.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtrWAAS</Id>
+      <LastModifiedDateUtcTicks>130849721430000000</LastModifiedDateUtcTicks>
+      <Hash>igYCPR6TQSZB/pILEruzuA==</Hash>
+    </Compile>
+    <Compile Include="Classes\BatchableClass11.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtthAAC</Id>
+      <LastModifiedDateUtcTicks>130849721580000000</LastModifiedDateUtcTicks>
+      <Hash>FfalLMuZbkSaBWmW3hFqdg==</Hash>
+    </Compile>
+    <Compile Include="Classes\BatchableClass1asdsds.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VvPpAAK</Id>
+      <LastModifiedDateUtcTicks>130848065970000000</LastModifiedDateUtcTicks>
+      <Hash>rabHIJ1eF99jLb27SLORGg==</Hash>
+    </Compile>
+    <Compile Include="Classes\BatchableClass1ii.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtlNAAS</Id>
+      <LastModifiedDateUtcTicks>130848065970000000</LastModifiedDateUtcTicks>
+      <Hash>mjL0L8oZkrxXJhGqYcv6ig==</Hash>
+    </Compile>
+    <Compile Include="Classes\BatchableClass2.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtJ4AAK</Id>
+      <LastModifiedDateUtcTicks>130848065960000000</LastModifiedDateUtcTicks>
+      <Hash>FUnuq/n7gKwb8rh2dZDugQ==</Hash>
+    </Compile>
+    <Compile Include="Classes\ChangePasswordController.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VjR1AAK</Id>
+      <LastModifiedDateUtcTicks>130833244460000000</LastModifiedDateUtcTicks>
+      <Hash>uscnuP4Et0jUnyGc0CV5BQ==</Hash>
+    </Compile>
+    <Compile Include="Classes\ChangePasswordControllerTest.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VjR2AAK</Id>
+      <LastModifiedDateUtcTicks>130848806930000000</LastModifiedDateUtcTicks>
+      <Hash>feyBwQbx4cEdX1pwR/OHNg==</Hash>
+    </Compile>
+    <Compile Include="Classes\Claasdde12dewewess1.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WHZdAAO</Id>
+      <LastModifiedDateUtcTicks>130808404080000000</LastModifiedDateUtcTicks>
+      <Hash>D38wNyEwe+kQcPqozTUSJQ==</Hash>
+    </Compile>
+    <Compile Include="Classes\Claffffffffgggggss1.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WHZiAAO</Id>
+      <LastModifiedDateUtcTicks>130820462260000000</LastModifiedDateUtcTicks>
+      <Hash>VOG3ReaEIA+4kciqmNDuoQ==</Hash>
+    </Compile>
+    <Compile Include="Classes\Clasasdasdasdasdasdasdasdasdasds1.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WHZnAAO</Id>
+      <LastModifiedDateUtcTicks>130808414120000000</LastModifiedDateUtcTicks>
+      <Hash>tYi5W+umLVVMgFFaKQsZyw==</Hash>
+    </Compile>
+    <Compile Include="Classes\Clasasdasddfffs1.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WHa7AAG</Id>
+      <LastModifiedDateUtcTicks>130808439240000000</LastModifiedDateUtcTicks>
+      <Hash>U65eJcig3OLt4qRzyPZFfA==</Hash>
+    </Compile>
+    <Compile Include="Classes\Clasdasdasdass1.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VvQ9AAK</Id>
+      <LastModifiedDateUtcTicks>130779049470000000</LastModifiedDateUtcTicks>
+      <Hash>Qhd8RKg5PHN6SWDjyI7dsw==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class01.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VqKKAA0</Id>
+      <LastModifiedDateUtcTicks>130833505720000000</LastModifiedDateUtcTicks>
+      <Hash>OFe7ru3Nu7MuXLN9GjcSVA==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class10.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WKHXAA4</Id>
+      <LastModifiedDateUtcTicks>130834244370000000</LastModifiedDateUtcTicks>
+      <Hash>y08dEfqARAKAs90M8jL2Ow==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class100.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtjgAAC</Id>
+      <LastModifiedDateUtcTicks>130847869800000000</LastModifiedDateUtcTicks>
+      <Hash>VMMMpxSUrybb/xo4t3kLXw==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class101.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004Vtk5AAC</Id>
+      <LastModifiedDateUtcTicks>130802330920000000</LastModifiedDateUtcTicks>
+      <Hash>qq6QzOBH6c8X+HaQf7QVdA==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class11.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WJ27AAG</Id>
+      <LastModifiedDateUtcTicks>130826459050000000</LastModifiedDateUtcTicks>
+      <Hash>2Q8To7GVz/mCZ38f1cgrhQ==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class111.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtixAAC</Id>
+      <LastModifiedDateUtcTicks>130779759270000000</LastModifiedDateUtcTicks>
+      <Hash>v2spe69pLBml5gs6C02Qdg==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class1111.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VuOGAA0</Id>
+      <LastModifiedDateUtcTicks>130804039900000000</LastModifiedDateUtcTicks>
+      <Hash>sXXvkw+RgCZL0o65RaKHlg==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class12.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004Vub0AAC</Id>
+      <LastModifiedDateUtcTicks>130834298680000000</LastModifiedDateUtcTicks>
+      <Hash>MBE3Z3xaqaE/lElrNygdNQ==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class12012.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WKdsAAG</Id>
+      <LastModifiedDateUtcTicks>130839367410000000</LastModifiedDateUtcTicks>
+      <Hash>xP+rLGj+mNaKviw7nVOYKQ==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class13.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004Vub5AAC</Id>
+      <LastModifiedDateUtcTicks>130813504660000000</LastModifiedDateUtcTicks>
+      <Hash>prWH4dHjRiKfbu9/tGFNDA==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class14.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VubAAAS</Id>
+      <LastModifiedDateUtcTicks>130826465000000000</LastModifiedDateUtcTicks>
+      <Hash>j3jTFtVKZgFpfauUkTPYcw==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class15.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VvJXAA0</Id>
+      <LastModifiedDateUtcTicks>130813618300000000</LastModifiedDateUtcTicks>
+      <Hash>I4JjJq/yEhdc7cZPFhyclw==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class16.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WKIfAAO</Id>
+      <LastModifiedDateUtcTicks>130834298430000000</LastModifiedDateUtcTicks>
+      <Hash>9AO7w6YLJ3gLUeJCTbne7g==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class18.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VubUAAS</Id>
+      <LastModifiedDateUtcTicks>130813618300000000</LastModifiedDateUtcTicks>
+      <Hash>Urg+G3TXJ1NTFQYzpfbKBQ==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class19.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VubZAAS</Id>
+      <LastModifiedDateUtcTicks>130779675330000000</LastModifiedDateUtcTicks>
+      <Hash>Yb9F6htghFQS8r2zwI4wlw==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class1a.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtkFAAS</Id>
+      <LastModifiedDateUtcTicks>130777343300000000</LastModifiedDateUtcTicks>
+      <Hash>PyltxPB1Q8DpGYxiQW5pcA==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class1aasddfdsfqewqewqewqew.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WHZTAA4</Id>
+      <LastModifiedDateUtcTicks>130808380380000000</LastModifiedDateUtcTicks>
+      <Hash>eDtx7x+m7SCRfrYm5eBErA==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class1eeeeee.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VvQ4AAK</Id>
+      <LastModifiedDateUtcTicks>130779046530000000</LastModifiedDateUtcTicks>
+      <Hash>QGGckIhiXf8fHnFSLDlGRg==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class1ewewew.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WHYkAAO</Id>
+      <LastModifiedDateUtcTicks>130808368210000000</LastModifiedDateUtcTicks>
+      <Hash>iFGTbhr256cMj/2LG3VVEg==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class1NEwllame.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WHaqAAG</Id>
+      <LastModifiedDateUtcTicks>130808468150000000</LastModifiedDateUtcTicks>
+      <Hash>5PIlDI/J4S3NC/MyZUiJig==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class1trert.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtlSAAS</Id>
+      <LastModifiedDateUtcTicks>130777343310000000</LastModifiedDateUtcTicks>
+      <Hash>2/xSuwEtBsAiC7qQy0r1lQ==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class2.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004Vt07AAC</Id>
+      <LastModifiedDateUtcTicks>130809872750000000</LastModifiedDateUtcTicks>
+      <Hash>zsc9xZwxBv8sSOYnt7n5PQ==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class20.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtK2AAK</Id>
+      <LastModifiedDateUtcTicks>130777343320000000</LastModifiedDateUtcTicks>
+      <Hash>Yqrx+SPSRPr3wbLIX7j3NQ==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class2012.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WKdYAAW</Id>
+      <LastModifiedDateUtcTicks>130839359560000000</LastModifiedDateUtcTicks>
+      <Hash>WcIIiepQjWluhBieH1lAwA==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class21.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VuxuAAC</Id>
+      <LastModifiedDateUtcTicks>130777343300000000</LastModifiedDateUtcTicks>
+      <Hash>CjuVTq94gXrVAX4UOrwpHw==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class22.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VuxzAAC</Id>
+      <LastModifiedDateUtcTicks>130777343310000000</LastModifiedDateUtcTicks>
+      <Hash>MP+ws+ZFeDt5j9pF1B1aQA==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class22334455661.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WHaHAAW</Id>
+      <LastModifiedDateUtcTicks>130808444040000000</LastModifiedDateUtcTicks>
+      <Hash>OpVJbVcsPgLb4b2NxSzrQA==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class23.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VuyEAAS</Id>
+      <LastModifiedDateUtcTicks>130777343320000000</LastModifiedDateUtcTicks>
+      <Hash>IuY+EwhJ7GtI74g31zanXw==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class24.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VuyJAAS</Id>
+      <LastModifiedDateUtcTicks>130779713860000000</LastModifiedDateUtcTicks>
+      <Hash>q9c+QUeMexH0VGrAECMXTQ==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class25.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VuyOAAS</Id>
+      <LastModifiedDateUtcTicks>130777343310000000</LastModifiedDateUtcTicks>
+      <Hash>7lnl315PvmIPK0c9nhzluw==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class26.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VuyTAAS</Id>
+      <LastModifiedDateUtcTicks>130777343310000000</LastModifiedDateUtcTicks>
+      <Hash>+PMbzdZwgTEe9tPBcBhQbw==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class27.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VuyYAAS</Id>
+      <LastModifiedDateUtcTicks>130777343310000000</LastModifiedDateUtcTicks>
+      <Hash>I7GB0mPHsSVcQTlOz8vK4w==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class28.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VuydAAC</Id>
+      <LastModifiedDateUtcTicks>130785665970000000</LastModifiedDateUtcTicks>
+      <Hash>lxp8bsamUL0MLoKYmxUOKg==</Hash>
+    </Compile>
+    <Compile Include="Classes\class29.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VuyiAAC</Id>
+      <LastModifiedDateUtcTicks>130785720590000000</LastModifiedDateUtcTicks>
+      <Hash>9sqRmfWfTR6lp1Ctj5wiVg==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class3.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtdJAAS</Id>
+      <LastModifiedDateUtcTicks>130777343310000000</LastModifiedDateUtcTicks>
+      <Hash>vqVI99ZqfBMmkKRlwxHdog==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class30.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtuVAAS</Id>
+      <LastModifiedDateUtcTicks>130777343300000000</LastModifiedDateUtcTicks>
+      <Hash>WCQXyT8v6UA2blVJZG6azA==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class31.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004W7G3AAK</Id>
+      <LastModifiedDateUtcTicks>130783419850000000</LastModifiedDateUtcTicks>
+      <Hash>+Mci5LjbGjLDnl74Ln3nkg==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class32.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004W7G8AAK</Id>
+      <LastModifiedDateUtcTicks>130783422330000000</LastModifiedDateUtcTicks>
+      <Hash>p5RYnS0u5VsQqT6qX+DisA==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class33.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004W7b1AAC</Id>
+      <LastModifiedDateUtcTicks>130783439720000000</LastModifiedDateUtcTicks>
+      <Hash>p6zNRmGufnpLm3+LcrG6hA==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class34.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WBTPAA4</Id>
+      <LastModifiedDateUtcTicks>130785007730000000</LastModifiedDateUtcTicks>
+      <Hash>fiIefAjKP9qT+zsGrhoaFQ==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class35.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WFVNAA4</Id>
+      <LastModifiedDateUtcTicks>130794400640000000</LastModifiedDateUtcTicks>
+      <Hash>h7+dwzVQugc/p6NGWyrAjg==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class36.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WFWQAA4</Id>
+      <LastModifiedDateUtcTicks>130794520190000000</LastModifiedDateUtcTicks>
+      <Hash>iM8PCXprxkKZQmF/n4T4sg==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class37.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WGuPAAW</Id>
+      <LastModifiedDateUtcTicks>130802332590000000</LastModifiedDateUtcTicks>
+      <Hash>JH2Z17sbSne/rROmXVEKYw==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class38.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WGvNAAW</Id>
+      <LastModifiedDateUtcTicks>130802402200000000</LastModifiedDateUtcTicks>
+      <Hash>g1Y22IyQI4fhou9pgkQYhg==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class39.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WJIAAA4</Id>
+      <LastModifiedDateUtcTicks>130825471030000000</LastModifiedDateUtcTicks>
+      <Hash>IKN+nWurA9/lJ17ajVoaYA==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class4.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004Vt0HAAS</Id>
+      <LastModifiedDateUtcTicks>130777343290000000</LastModifiedDateUtcTicks>
+      <Hash>KBIuQBj7TLa4hLerWQvxcA==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class40.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtviAAC</Id>
+      <LastModifiedDateUtcTicks>130777343300000000</LastModifiedDateUtcTicks>
+      <Hash>4Z6M3EGu6G/uvb1qfhXHdA==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class41.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WJIFAA4</Id>
+      <LastModifiedDateUtcTicks>130825475280000000</LastModifiedDateUtcTicks>
+      <Hash>/T4Gd6pv0XPN0xR1UuMqrw==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class5.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtdOAAS</Id>
+      <LastModifiedDateUtcTicks>130808072070000000</LastModifiedDateUtcTicks>
+      <Hash>nRjU1lxxRCg0G6n0GK068w==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class50.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtxKAAS</Id>
+      <LastModifiedDateUtcTicks>130777343320000000</LastModifiedDateUtcTicks>
+      <Hash>P9eurdhwt6Kp3T5ogeV5/A==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class51.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtxPAAS</Id>
+      <LastModifiedDateUtcTicks>130777343320000000</LastModifiedDateUtcTicks>
+      <Hash>knN0aBzqDHf1o98N0ZFJqA==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class52.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtxUAAS</Id>
+      <LastModifiedDateUtcTicks>130777343320000000</LastModifiedDateUtcTicks>
+      <Hash>xi6jyXZ8n+GEg3koVUX1dA==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class53.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtxZAAS</Id>
+      <LastModifiedDateUtcTicks>130777343320000000</LastModifiedDateUtcTicks>
+      <Hash>sSIOD9zW4bto07fFi2VbPQ==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class54.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtxeAAC</Id>
+      <LastModifiedDateUtcTicks>130777343320000000</LastModifiedDateUtcTicks>
+      <Hash>mxqzASJLTUTGkuKYiTyR2A==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class55.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtxjAAC</Id>
+      <LastModifiedDateUtcTicks>130777343310000000</LastModifiedDateUtcTicks>
+      <Hash>Kb/s3KYFR3j2vgfatXuU1A==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class56.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtxoAAC</Id>
+      <LastModifiedDateUtcTicks>130777343310000000</LastModifiedDateUtcTicks>
+      <Hash>ACBtDmxjnQfrucl3Xy4oow==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class57.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtxtAAC</Id>
+      <LastModifiedDateUtcTicks>130779670090000000</LastModifiedDateUtcTicks>
+      <Hash>uVHG4iqY9t6GAkwov/zDLA==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class58.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004Vty3AAC</Id>
+      <LastModifiedDateUtcTicks>130777343320000000</LastModifiedDateUtcTicks>
+      <Hash>Ra3v/T1XzKGmi4Xsy3Sa0A==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class6.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtdYAAS</Id>
+      <LastModifiedDateUtcTicks>130777343320000000</LastModifiedDateUtcTicks>
+      <Hash>G0nQjFqildq2bV5iO0ntPg==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class60.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VualAAC</Id>
+      <LastModifiedDateUtcTicks>130777343300000000</LastModifiedDateUtcTicks>
+      <Hash>tIICzUIob/wiq2T63BWCcg==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class61.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VuaqAAC</Id>
+      <LastModifiedDateUtcTicks>130777343300000000</LastModifiedDateUtcTicks>
+      <Hash>725ndSfGJiVPPGDujaF8Sw==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class62.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VuavAAC</Id>
+      <LastModifiedDateUtcTicks>130777343300000000</LastModifiedDateUtcTicks>
+      <Hash>MEQowcYXc6qsXF47lmRdBw==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class7.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtddAAC</Id>
+      <LastModifiedDateUtcTicks>130777343320000000</LastModifiedDateUtcTicks>
+      <Hash>vqrJcqKyAUVPX4WWWnXVQA==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class8.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtdiAAC</Id>
+      <LastModifiedDateUtcTicks>130779863070000000</LastModifiedDateUtcTicks>
+      <Hash>H3j3VEYwmuYcUKDGpw6Oew==</Hash>
+    </Compile>
+    <Compile Include="Classes\class88.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WCqiAAG</Id>
+      <LastModifiedDateUtcTicks>130788483590000000</LastModifiedDateUtcTicks>
+      <Hash>nCKH25E5ymx/081+nt0GiA==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class9.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtinAAC</Id>
+      <LastModifiedDateUtcTicks>130788484710000000</LastModifiedDateUtcTicks>
+      <Hash>ntfKj8xj8/bmY4hUlmLIjA==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class999.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtjqAAC</Id>
+      <LastModifiedDateUtcTicks>130777343300000000</LastModifiedDateUtcTicks>
+      <Hash>0t/Dg6X2lvo/m5NHdWYd2g==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class999Class1.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtjlAAC</Id>
+      <LastModifiedDateUtcTicks>130777343300000000</LastModifiedDateUtcTicks>
+      <Hash>yfWaRwz8viWRnmTJjtvbAw==</Hash>
+    </Compile>
+    <Compile Include="Classes\Classaaaaaa1dddddww2222.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WHaMAAW</Id>
+      <LastModifiedDateUtcTicks>130808446090000000</LastModifiedDateUtcTicks>
+      <Hash>df/U2Ystpgzr37JlY9KgcA==</Hash>
+    </Compile>
+    <Compile Include="Classes\Classadfdsfewrewrewrewrewrews1.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WHaWAAW</Id>
+      <LastModifiedDateUtcTicks>130808462280000000</LastModifiedDateUtcTicks>
+      <Hash>urwqzQ8wkRqpaDgCVcPQZw==</Hash>
+    </Compile>
+    <Compile Include="Classes\Classdasdasdasdasdae22333s39.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WHpMAAW</Id>
+      <LastModifiedDateUtcTicks>130810103720000000</LastModifiedDateUtcTicks>
+      <Hash>LV399I9/rNvCYjipa9Iczg==</Hash>
+    </Compile>
+    <Compile Include="Classes\Classsdsdsdsdddddddddwee1.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WHYuAAO</Id>
+      <LastModifiedDateUtcTicks>130808374440000000</LastModifiedDateUtcTicks>
+      <Hash>9vsq7zyrNenqbGYfUqv5Kw==</Hash>
+    </Compile>
+    <Compile Include="Classes\ClassToSeePropertiesCreation.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WKbDAAW</Id>
+      <LastModifiedDateUtcTicks>130838359960000000</LastModifiedDateUtcTicks>
+      <Hash>LhWdydL6w3eNetsdbNyoqw==</Hash>
+    </Compile>
+    <Compile Include="Classes\ClassWhichMustAppear.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WKeWAAW</Id>
+      <LastModifiedDateUtcTicks>130839447660000000</LastModifiedDateUtcTicks>
+      <Hash>cxKnXbNYhCfTvwLDc4sy0A==</Hash>
+    </Compile>
+    <Compile Include="Classes\ClassWhichShouldBeCoughtByFIleWatcher.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WKdJAAW</Id>
+      <LastModifiedDateUtcTicks>130839355910000000</LastModifiedDateUtcTicks>
+      <Hash>TLs+2zK03aiwf+zYpNHSxA==</Hash>
+    </Compile>
+    <Compile Include="Classes\Class_new.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004Vtj7AAC</Id>
+      <LastModifiedDateUtcTicks>130777343320000000</LastModifiedDateUtcTicks>
+      <Hash>HNNmDJcKGBy5Ln64qiiTZA==</Hash>
+    </Compile>
+    <Compile Include="Classes\cls8vqu7i32jnpoqgdgqt9h9wj21nir51h01ef.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004Vtw2AAC</Id>
+      <LastModifiedDateUtcTicks>130777343300000000</LastModifiedDateUtcTicks>
+      <Hash>bh9q3/PNObrLfpHbp1gU/w==</Hash>
+    </Compile>
+    <Compile Include="Classes\clsb7rm6f3fgb60iqxa2rg1m5bwxkd6f04022n.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtwvAAC</Id>
+      <LastModifiedDateUtcTicks>130777343320000000</LastModifiedDateUtcTicks>
+      <Hash>cSMuEAMoMk4qla/OClF9Ng==</Hash>
+    </Compile>
+    <Compile Include="Classes\clsg30vvbixinw4dd06pvpmqs72z0rcu11_pnn.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtwlAAC</Id>
+      <LastModifiedDateUtcTicks>130777343320000000</LastModifiedDateUtcTicks>
+      <Hash>FOnFYGGCCEaEkwj5Y5mXJw==</Hash>
+    </Compile>
+    <Compile Include="Classes\ClsPI3WQ6RY6G4TPM0BXGI9NKGH9D33313WXWA.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtvEAAS</Id>
+      <LastModifiedDateUtcTicks>130777343310000000</LastModifiedDateUtcTicks>
+      <Hash>MBwHT2hxLHyWvdE7NcvKUg==</Hash>
+    </Compile>
+    <Compile Include="Classes\clstxinl6a_rdxpeh29a3wf15727rn0jom0p_6.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WFZoAAO</Id>
+      <LastModifiedDateUtcTicks>130796226510000000</LastModifiedDateUtcTicks>
+      <Hash>fCERRldq72nZfI6E5NZM2w==</Hash>
+    </Compile>
+    <Compile Include="Classes\clsxbxv7ilq_i2g7rtukr2p62f2956v1dt0b33.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtwCAAS</Id>
+      <LastModifiedDateUtcTicks>130777343300000000</LastModifiedDateUtcTicks>
+      <Hash>sfX08sSSvc2VoeMTSmby0Q==</Hash>
+    </Compile>
+    <Compile Include="Classes\CoolClass.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VuPTAA0</Id>
+      <LastModifiedDateUtcTicks>130831076000000000</LastModifiedDateUtcTicks>
+      <Hash>ptQZg6KRV1kKrX+EB0lz6w==</Hash>
+    </Compile>
+    <Compile Include="Classes\ForgotPasswordController.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VjR3AAK</Id>
+      <LastModifiedDateUtcTicks>130818724510000000</LastModifiedDateUtcTicks>
+      <Hash>aMYktFeVrF5HgH3ZuE/MSg==</Hash>
+    </Compile>
+    <Compile Include="Classes\ForgotPasswordControllerTest.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VjR4AAK</Id>
+      <LastModifiedDateUtcTicks>130831075440000000</LastModifiedDateUtcTicks>
+      <Hash>yy8AG7hVRCT9TDF1If6nZw==</Hash>
+    </Compile>
+    <Compile Include="Classes\GetMeSomething.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WJfEAAW</Id>
+      <LastModifiedDateUtcTicks>130827358680000000</LastModifiedDateUtcTicks>
+      <Hash>fn3WJHnn2L24ogYp5hUaxw==</Hash>
+    </Compile>
+    <Compile Include="Classes\HelloWOrld.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VkWmAAK</Id>
+      <LastModifiedDateUtcTicks>130777343300000000</LastModifiedDateUtcTicks>
+      <Hash>2eUoVyOIv8xWZ73OjXrTZQ==</Hash>
+    </Compile>
+    <Compile Include="Classes\interface2.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WCqnAAG</Id>
+      <LastModifiedDateUtcTicks>130785674230000000</LastModifiedDateUtcTicks>
+      <Hash>dAKN7niiRvYKGjSV8ytwNQ==</Hash>
+    </Compile>
+    <Compile Include="Classes\InvalidParameterException.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WIPFAA4</Id>
+      <LastModifiedDateUtcTicks>130815175170000000</LastModifiedDateUtcTicks>
+      <Hash>WpW0p2BQgic25DhSQHlcmQ==</Hash>
+    </Compile>
+    <Compile Include="Classes\MagicClass.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WL7YAAW</Id>
+      <LastModifiedDateUtcTicks>130845264110000000</LastModifiedDateUtcTicks>
+      <Hash>/syaibQhx7ruRzAwI0Dozw==</Hash>
+    </Compile>
+    <Compile Include="Classes\myCls.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WFvQAAW</Id>
+      <LastModifiedDateUtcTicks>130802173870000000</LastModifiedDateUtcTicks>
+      <Hash>fo72HBzHfdiQlnUw6OXoIg==</Hash>
+    </Compile>
+    <Compile Include="Classes\myControllerExtension.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VcERAA0</Id>
+      <LastModifiedDateUtcTicks>130777343290000000</LastModifiedDateUtcTicks>
+      <Hash>BH+JTsr7Irclj7LX2WkwaA==</Hash>
+    </Compile>
+    <Compile Include="Classes\MyProfilePageController.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VjR5AAK</Id>
+      <LastModifiedDateUtcTicks>130846955220000000</LastModifiedDateUtcTicks>
+      <Hash>touCKC+91A67GEGo/mNDhA==</Hash>
+    </Compile>
+    <Compile Include="Classes\MyProfilePageControllerTest.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VjR6AAK</Id>
+      <LastModifiedDateUtcTicks>130847169060000000</LastModifiedDateUtcTicks>
+      <Hash>yFc6k7KOUyS4Pk91Gy2RHw==</Hash>
+    </Compile>
+    <Compile Include="Classes\NewApexClass2.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VgbLAAS</Id>
+      <LastModifiedDateUtcTicks>130777343310000000</LastModifiedDateUtcTicks>
+      <Hash>MH0jkByWY6flbwlbQuEo1Q==</Hash>
+    </Compile>
+    <Compile Include="Classes\NewApexClass3.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VgbQAAS</Id>
+      <LastModifiedDateUtcTicks>130777343310000000</LastModifiedDateUtcTicks>
+      <Hash>Wc7mZ59Rk4KaZ7fDn+t1QQ==</Hash>
+    </Compile>
+    <Compile Include="Classes\NewClass.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WKbIAAW</Id>
+      <LastModifiedDateUtcTicks>130838368730000000</LastModifiedDateUtcTicks>
+      <Hash>exMCznMoZTyKvG0nP6RFfw==</Hash>
+    </Compile>
+    <Compile Include="Classes\newClassddd.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VgdbAAC</Id>
+      <LastModifiedDateUtcTicks>130777343300000000</LastModifiedDateUtcTicks>
+      <Hash>UKkBP4POrQ9syKLIO8Letg==</Hash>
+    </Compile>
+    <Compile Include="Classes\NewClassForPull.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VgdRAAS</Id>
+      <LastModifiedDateUtcTicks>130846955240000000</LastModifiedDateUtcTicks>
+      <Hash>Gcd3ZX5e7X1umNsvnPVwlQ==</Hash>
+    </Compile>
+    <Compile Include="Classes\NewGaClass.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VdyVAAS</Id>
+      <LastModifiedDateUtcTicks>130777343300000000</LastModifiedDateUtcTicks>
+      <Hash>b2UBwYkfM21ILjL62rAfrQ==</Hash>
+    </Compile>
+    <Compile Include="Classes\qewqweqwe.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VvPzAAK</Id>
+      <LastModifiedDateUtcTicks>130779046400000000</LastModifiedDateUtcTicks>
+      <Hash>sSKPV6XxDFTUtSLg0ejb7w==</Hash>
+    </Compile>
+    <Compile Include="Classes\RansomCladdNalkdfjskfd.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtupAAC</Id>
+      <LastModifiedDateUtcTicks>130777343300000000</LastModifiedDateUtcTicks>
+      <Hash>FNzS3W0CRlJl+V9BlsqyaQ==</Hash>
+    </Compile>
+    <Compile Include="Classes\SchedulablasdasdasdeClass1.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004Vtw7AAC</Id>
+      <LastModifiedDateUtcTicks>130777343300000000</LastModifiedDateUtcTicks>
+      <Hash>ckkRE5P7aNWtq7yG8wzPBA==</Hash>
+    </Compile>
+    <Compile Include="Classes\SchedulableClass1.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtEsAAK</Id>
+      <LastModifiedDateUtcTicks>130777343320000000</LastModifiedDateUtcTicks>
+      <Hash>xd0OupygoB0PykFEvWKLnQ==</Hash>
+    </Compile>
+    <Compile Include="Classes\SchedulableClass1333.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtIaAAK</Id>
+      <LastModifiedDateUtcTicks>130777343320000000</LastModifiedDateUtcTicks>
+      <Hash>5fzgGkWLXzR7vq0kUr6bpg==</Hash>
+    </Compile>
+    <Compile Include="Classes\SchedulableClass2.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtGPAA0</Id>
+      <LastModifiedDateUtcTicks>130777343300000000</LastModifiedDateUtcTicks>
+      <Hash>oYyywAnt+BYPL3gqUCoQOw==</Hash>
+    </Compile>
+    <Compile Include="Classes\SchedulableClass3.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtIpAAK</Id>
+      <LastModifiedDateUtcTicks>130777343320000000</LastModifiedDateUtcTicks>
+      <Hash>JCFgEXr9IJ8A1Yey161mig==</Hash>
+    </Compile>
+    <Compile Include="Classes\SchedulableClassii1.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtlIAAS</Id>
+      <LastModifiedDateUtcTicks>130777343310000000</LastModifiedDateUtcTicks>
+      <Hash>3wQU2gpDonKg99UCFIl0mQ==</Hash>
+    </Compile>
+    <Compile Include="Classes\SetSomething.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WJfYAAW</Id>
+      <LastModifiedDateUtcTicks>130827363760000000</LastModifiedDateUtcTicks>
+      <Hash>t6MqQGw6R36D88LXoLq3gg==</Hash>
+    </Compile>
+    <Compile Include="Classes\SiteLoginController.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VjQxAAK</Id>
+      <LastModifiedDateUtcTicks>130777343310000000</LastModifiedDateUtcTicks>
+      <Hash>G1f1bzrQHc0Qq5eU9bpK9w==</Hash>
+    </Compile>
+    <Compile Include="Classes\SiteLoginControllerTest.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VjQyAAK</Id>
+      <LastModifiedDateUtcTicks>130815975740000000</LastModifiedDateUtcTicks>
+      <Hash>oGZQWW9nUx++6JwPFRYRrA==</Hash>
+    </Compile>
+    <Compile Include="Classes\SiteRegisterController.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VjQzAAK</Id>
+      <LastModifiedDateUtcTicks>130777343310000000</LastModifiedDateUtcTicks>
+      <Hash>ZnIt5HiBP8JGaUjLi9SqmA==</Hash>
+    </Compile>
+    <Compile Include="Classes\SiteRegisterControllerTest.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VjR0AAK</Id>
+      <LastModifiedDateUtcTicks>130777343320000000</LastModifiedDateUtcTicks>
+      <Hash>44/b3TeQnaaRCu4jba+vzg==</Hash>
+    </Compile>
+    <Compile Include="Classes\SomeClass.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WIP5AAO</Id>
+      <LastModifiedDateUtcTicks>130815172300000000</LastModifiedDateUtcTicks>
+      <Hash>YgyAawlaUjWemx6yHMzezg==</Hash>
+    </Compile>
+    <Compile Include="Classes\SomeClassExc1.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WIPAAA4</Id>
+      <LastModifiedDateUtcTicks>130815173240000000</LastModifiedDateUtcTicks>
+      <Hash>hmv123b5bcSp1Ew6EYEqhQ==</Hash>
+    </Compile>
+    <Compile Include="Classes\SomeException.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtgNAAS</Id>
+      <LastModifiedDateUtcTicks>130815164530000000</LastModifiedDateUtcTicks>
+      <Hash>oIWG1pm37s6thwArxCCx6w==</Hash>
+    </Compile>
+    <Compile Include="Classes\StringUtils.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004UzrgAAC</Id>
+      <LastModifiedDateUtcTicks>130777343310000000</LastModifiedDateUtcTicks>
+      <Hash>+GMUOTI6ldAIb5DPOHPv5g==</Hash>
+    </Compile>
+    <Compile Include="Classes\TemplateUpdate.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtlXAAS</Id>
+      <LastModifiedDateUtcTicks>130777343310000000</LastModifiedDateUtcTicks>
+      <Hash>meMhx+7fnN6khWImhSkdfw==</Hash>
+    </Compile>
+    <Compile Include="Classes\TeslaS.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WJEIAA4</Id>
+      <LastModifiedDateUtcTicks>130826387100000000</LastModifiedDateUtcTicks>
+      <Hash>dUza4lh454d083+UQGUXcg==</Hash>
+    </Compile>
+    <Compile Include="Classes\TestBlah.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VhnxAAC</Id>
+      <LastModifiedDateUtcTicks>130777343290000000</LastModifiedDateUtcTicks>
+      <Hash>Gzq3BPFy7fbKzMUuto06AQ==</Hash>
+    </Compile>
+    <Compile Include="Classes\TestClass123.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WIjeAAG</Id>
+      <LastModifiedDateUtcTicks>130819496050000000</LastModifiedDateUtcTicks>
+      <Hash>pccusoJwoSEQ4mdZT6rXjw==</Hash>
+    </Compile>
+    <Compile Include="Classes\TestClassNewTest.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VvVTAA0</Id>
+      <LastModifiedDateUtcTicks>130831467820000000</LastModifiedDateUtcTicks>
+      <Hash>zrOgqAaeMmCB4y4XPVKKYA==</Hash>
+    </Compile>
+    <Compile Include="Classes\TEstSubscription1.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VgfmAAC</Id>
+      <LastModifiedDateUtcTicks>130777343290000000</LastModifiedDateUtcTicks>
+      <Hash>mzjQ+iw+L7MKW/nhBzw9SQ==</Hash>
+    </Compile>
+    <Compile Include="Classes\TestSubscription2.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VgfrAAC</Id>
+      <LastModifiedDateUtcTicks>130777343290000000</LastModifiedDateUtcTicks>
+      <Hash>kFrBduaX4xGcla05OURi7g==</Hash>
+    </Compile>
+    <Compile Include="Classes\TestTrigger2_After.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VrkqAAC</Id>
+      <LastModifiedDateUtcTicks>130777343310000000</LastModifiedDateUtcTicks>
+      <Hash>cTh+2VJ2rsPGJvpQMTuUcw==</Hash>
+    </Compile>
+    <Compile Include="Classes\Thisisclass.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VhVUAA0</Id>
+      <LastModifiedDateUtcTicks>130777343310000000</LastModifiedDateUtcTicks>
+      <Hash>WtuDZQ0j/qiySgYcqU1Mlg==</Hash>
+    </Compile>
+    <Compile Include="Classes\TMS_Webservices_Utility.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WIwiAAG</Id>
+      <LastModifiedDateUtcTicks>130822038230000000</LastModifiedDateUtcTicks>
+      <Hash>QLR7cFE6sRj1hhP/N6+UVw==</Hash>
+    </Compile>
+    <Compile Include="Classes\VeryNewOne.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004WLNgAAO</Id>
+      <LastModifiedDateUtcTicks>130847908100000000</LastModifiedDateUtcTicks>
+      <Hash>aPfami0YdVYo61hqaBH2YA==</Hash>
+    </Compile>
+    <Compile Include="Components\paginationbar.component">
+      <SubType>Component</SubType>
+      <Id>099200000009Vh6AAE</Id>
+      <LastModifiedDateUtcTicks>130819494510000000</LastModifiedDateUtcTicks>
+      <Hash>myAolf1uwA0Zq+515CJLAQ==</Hash>
+    </Compile>
+    <Compile Include="Components\pagination_bar.component">
+      <SubType>Component</SubType>
+      <Id>099200000009VhaAAE</Id>
+      <LastModifiedDateUtcTicks>130844670270000000</LastModifiedDateUtcTicks>
+      <Hash>EaQBXtJKk3ejdI7VPYPGBw==</Hash>
+    </Compile>
+    <Compile Include="Components\Resources.component">
+      <SubType>Component</SubType>
+      <Id>099200000009VhfAAE</Id>
+      <LastModifiedDateUtcTicks>130775575490000000</LastModifiedDateUtcTicks>
+      <Hash>GBrvWdYRhPY/hmMt3x34BQ==</Hash>
+    </Compile>
+    <Compile Include="Components\SiteFooter.component">
+      <SubType>Component</SubType>
+      <Id>099200000009WV3AAM</Id>
+      <LastModifiedDateUtcTicks>130775575490000000</LastModifiedDateUtcTicks>
+      <Hash>qEar3k8+0k9iI1+hjrK0kw==</Hash>
+    </Compile>
+    <Compile Include="Components\SiteHeader.component">
+      <SubType>Component</SubType>
+      <Id>099200000009WV2AAM</Id>
+      <LastModifiedDateUtcTicks>130775575490000000</LastModifiedDateUtcTicks>
+      <Hash>gpE6wCrzrFxxgzhKRi+ulw==</Hash>
+    </Compile>
+    <Compile Include="Components\SiteLogin.component">
+      <SubType>Component</SubType>
+      <Id>099200000009WV4AAM</Id>
+      <LastModifiedDateUtcTicks>130775575490000000</LastModifiedDateUtcTicks>
+      <Hash>Psb1EURl8wC/Li7PhLUR9w==</Hash>
+    </Compile>
+    <Compile Include="Components\SitePoweredBy.component">
+      <SubType>Component</SubType>
+      <Id>099200000009WV1AAM</Id>
+      <LastModifiedDateUtcTicks>130775575490000000</LastModifiedDateUtcTicks>
+      <Hash>+aiFqB8jdf3qKFC82zz8zw==</Hash>
+    </Compile>
+    <Compile Include="Components\TestBlah_Component.component">
+      <SubType>Component</SubType>
+      <Id>099200000009WMiAAM</Id>
+      <LastModifiedDateUtcTicks>130775575490000000</LastModifiedDateUtcTicks>
+      <Hash>yT+POjVHVnVjN6eeUkd5ZA==</Hash>
+    </Compile>
+    <Compile Include="Pages\AnswersHome.page">
+      <SubType>Page</SubType>
+      <Id>06620000001pPOIAA2</Id>
+      <LastModifiedDateUtcTicks>130844711610000000</LastModifiedDateUtcTicks>
+      <Hash>am7Ax+i2deCqd2RzMrq6Ag==</Hash>
+    </Compile>
+    <Compile Include="Pages\BandwidthExceeded.page">
+      <SubType>Page</SubType>
+      <Id>06620000001pPOCAA2</Id>
+      <LastModifiedDateUtcTicks>130819494510000000</LastModifiedDateUtcTicks>
+      <Hash>d736RdjaHBR3sor8nIFevQ==</Hash>
+    </Compile>
+    <Compile Include="Pages\ChangePassword.page">
+      <SubType>Page</SubType>
+      <Id>06620000001pPO3AAM</Id>
+      <LastModifiedDateUtcTicks>130834242260000000</LastModifiedDateUtcTicks>
+      <Hash>Is3JhwioknbgicfzL0bZyQ==</Hash>
+    </Compile>
+    <Compile Include="Pages\Exception.page">
+      <SubType>Page</SubType>
+      <Id>06620000001pPODAA2</Id>
+      <LastModifiedDateUtcTicks>130775575510000000</LastModifiedDateUtcTicks>
+      <Hash>Heec157Wq8tVkhpX9RYWlQ==</Hash>
+    </Compile>
+    <Compile Include="Pages\FileNotFound.page">
+      <SubType>Page</SubType>
+      <Id>06620000001pPOBAA2</Id>
+      <LastModifiedDateUtcTicks>130775575510000000</LastModifiedDateUtcTicks>
+      <Hash>qfpYi4wUR0a4iM25GDM+kw==</Hash>
+    </Compile>
+    <Compile Include="Pages\ForgotPassword.page">
+      <SubType>Page</SubType>
+      <Id>06620000001pPO4AAM</Id>
+      <LastModifiedDateUtcTicks>130818724530000000</LastModifiedDateUtcTicks>
+      <Hash>tzc7Uadr9EjnBVqLOCfRIw==</Hash>
+    </Compile>
+    <Compile Include="Pages\ForgotPasswordConfirm.page">
+      <SubType>Page</SubType>
+      <Id>06620000001pPO6AAM</Id>
+      <LastModifiedDateUtcTicks>130775575500000000</LastModifiedDateUtcTicks>
+      <Hash>yMxkd7XDZ3zfnVGtGDqNhg==</Hash>
+    </Compile>
+    <Compile Include="Pages\IdeasHome.page">
+      <SubType>Page</SubType>
+      <Id>06620000001pPOHAA2</Id>
+      <LastModifiedDateUtcTicks>130775575510000000</LastModifiedDateUtcTicks>
+      <Hash>IN/KSDJp4C/rjf7t5ke5TQ==</Hash>
+    </Compile>
+    <Compile Include="Pages\InMaintenance.page">
+      <SubType>Page</SubType>
+      <Id>06620000001pPOEAA2</Id>
+      <LastModifiedDateUtcTicks>130830820340000000</LastModifiedDateUtcTicks>
+      <Hash>Mh0PJKWTQ8GiWwUYr3rNzA==</Hash>
+    </Compile>
+    <Compile Include="Pages\MyProfilePage.page">
+      <SubType>Page</SubType>
+      <Id>06620000001pPO8AAM</Id>
+      <LastModifiedDateUtcTicks>130775575500000000</LastModifiedDateUtcTicks>
+      <Hash>Hm4x3kERtUa+UFLW0HoCWw==</Hash>
+    </Compile>
+    <Compile Include="Pages\Page1.page">
+      <SubType>Page</SubType>
+      <Id>06620000001pgGpAAI</Id>
+      <LastModifiedDateUtcTicks>130802371110000000</LastModifiedDateUtcTicks>
+      <Hash>OX+pNhBcl7mBN41J92yo6A==</Hash>
+    </Compile>
+    <Compile Include="Pages\Page111.page">
+      <SubType>Page</SubType>
+      <Id>06620000001pgICAAY</Id>
+      <LastModifiedDateUtcTicks>130803238830000000</LastModifiedDateUtcTicks>
+      <Hash>9WiHi4QK3YxdS+3Cx/no7A==</Hash>
+    </Compile>
+    <Compile Include="Pages\Page2.page">
+      <SubType>Page</SubType>
+      <Id>06620000001Q68NAAS</Id>
+      <LastModifiedDateUtcTicks>130775575510000000</LastModifiedDateUtcTicks>
+      <Hash>M3FpdVgh7Kt5fBoLRAxJgA==</Hash>
+    </Compile>
+    <Compile Include="Pages\Page3.page">
+      <SubType>Page</SubType>
+      <Id>06620000001phcsAAA</Id>
+      <LastModifiedDateUtcTicks>130833330080000000</LastModifiedDateUtcTicks>
+      <Hash>9WiHi4QK3YxdS+3Cx/no7A==</Hash>
+    </Compile>
+    <Compile Include="Pages\Page4.page">
+      <SubType>Page</SubType>
+      <Id>06620000001phd2AAA</Id>
+      <LastModifiedDateUtcTicks>130834178640000000</LastModifiedDateUtcTicks>
+      <Hash>Its+46WniWG5Y0uw2EtTmQ==</Hash>
+    </Compile>
+    <Compile Include="Pages\pagenewpage.page">
+      <SubType>Page</SubType>
+      <Id>06620000001pOLEAA2</Id>
+      <LastModifiedDateUtcTicks>130775575510000000</LastModifiedDateUtcTicks>
+      <Hash>j1al+wGlpvUXiqX6wA7wTA==</Hash>
+    </Compile>
+    <Compile Include="Pages\SiteLogin.page">
+      <SubType>Page</SubType>
+      <Id>06620000001pPO5AAM</Id>
+      <LastModifiedDateUtcTicks>130775575500000000</LastModifiedDateUtcTicks>
+      <Hash>xJmdCuiT++edNj4o0LaOWw==</Hash>
+    </Compile>
+    <Compile Include="Pages\SiteRegister.page">
+      <SubType>Page</SubType>
+      <Id>06620000001pPO2AAM</Id>
+      <LastModifiedDateUtcTicks>130775575510000000</LastModifiedDateUtcTicks>
+      <Hash>ZwZTxW/04oMWwr7xORWJlg==</Hash>
+    </Compile>
+    <Compile Include="Pages\SiteRegisterConfirm.page">
+      <SubType>Page</SubType>
+      <Id>06620000001pPO7AAM</Id>
+      <LastModifiedDateUtcTicks>130775575500000000</LastModifiedDateUtcTicks>
+      <Hash>VzVBvF/M7OJOHPXExpwTTg==</Hash>
+    </Compile>
+    <Compile Include="Pages\SiteTemplate.page">
+      <SubType>Page</SubType>
+      <Id>06620000001pPOAAA2</Id>
+      <LastModifiedDateUtcTicks>130775575510000000</LastModifiedDateUtcTicks>
+      <Hash>sgbgvETPQbkla0rJLJpr4A==</Hash>
+    </Compile>
+    <Compile Include="Pages\StdExceptionTemplate.page">
+      <SubType>Page</SubType>
+      <Id>06620000001pPO9AAM</Id>
+      <LastModifiedDateUtcTicks>130775575500000000</LastModifiedDateUtcTicks>
+      <Hash>UyOtEvmO5wA/fFmKSEF+kg==</Hash>
+    </Compile>
+    <Compile Include="Pages\Test12345678901234567890123456789012345.page">
+      <SubType>Page</SubType>
+      <Id>06620000001pQ0cAAE</Id>
+      <LastModifiedDateUtcTicks>130775575500000000</LastModifiedDateUtcTicks>
+      <Hash>j1al+wGlpvUXiqX6wA7wTA==</Hash>
+    </Compile>
+    <Compile Include="Pages\TestSubscriptionPage.page">
+      <SubType>Page</SubType>
+      <Id>06620000001pOKzAAM</Id>
+      <LastModifiedDateUtcTicks>130775575500000000</LastModifiedDateUtcTicks>
+      <Hash>j1al+wGlpvUXiqX6wA7wTA==</Hash>
+    </Compile>
+    <Compile Include="Pages\TestSubsPage2.page">
+      <SubType>Page</SubType>
+      <Id>06620000001pOL4AAM</Id>
+      <LastModifiedDateUtcTicks>130775575500000000</LastModifiedDateUtcTicks>
+      <Hash>k+9jWZywO7afnEKA0iDhJw==</Hash>
+    </Compile>
+    <Compile Include="Pages\Unauthorized.page">
+      <SubType>Page</SubType>
+      <Id>06620000001pPOFAA2</Id>
+      <LastModifiedDateUtcTicks>130775575510000000</LastModifiedDateUtcTicks>
+      <Hash>bdPQgWb4D7ztiWOhSCl7Yg==</Hash>
+    </Compile>
+    <Compile Include="Pages\UnderConstruction.page">
+      <SubType>Page</SubType>
+      <Id>06620000001pPOGAA2</Id>
+      <LastModifiedDateUtcTicks>130775575510000000</LastModifiedDateUtcTicks>
+      <Hash>UqivNHuXwDEJH/W6BhtIzg==</Hash>
+    </Compile>
+    <Compile Include="Triggers\Class39.trigger">
+      <SubType>Trigger</SubType>
+      <Id>01q200000007SWzAAM</Id>
+      <LastModifiedDateUtcTicks>130844584950000000</LastModifiedDateUtcTicks>
+      <Hash>4OHI3YaUIRgwTZBuuD9qLQ==</Hash>
+    </Compile>
+    <Compile Include="Triggers\TestTrigger2.trigger">
+      <SubType>Trigger</SubType>
+      <Id>01q200000007MljAAE</Id>
+      <LastModifiedDateUtcTicks>130844670270000000</LastModifiedDateUtcTicks>
+      <Hash>cZdboQKu6ays+gFgdFOK7w==</Hash>
+    </Compile>
+    <Compile Include="Triggers\Trigger1.trigger">
+      <SubType>Trigger</SubType>
+      <Id>01q200000007OaPAAU</Id>
+      <LastModifiedDateUtcTicks>130779750230000000</LastModifiedDateUtcTicks>
+      <Hash>KQ8JNzjWQV8gZsbctb/ngw==</Hash>
+    </Compile>
+    <Compile Include="Triggers\Trigger1s.trigger">
+      <SubType>Trigger</SubType>
+      <Id>01q200000007HlhAAE</Id>
+      <LastModifiedDateUtcTicks>130783309970000000</LastModifiedDateUtcTicks>
+      <Hash>JJSpgT1ir7xrzUYuXt6zfg==</Hash>
+    </Compile>
+    <Compile Include="Triggers\Trigger2.trigger">
+      <SubType>Trigger</SubType>
+      <Id>01q200000007R5rAAE</Id>
+      <LastModifiedDateUtcTicks>130794357050000000</LastModifiedDateUtcTicks>
+      <Hash>LGfYm1EF5WCg8gtyLy3k4w==</Hash>
+    </Compile>
+    <Compile Include="Triggers\Trigger3.trigger">
+      <SubType>Trigger</SubType>
+      <Id>01q200000007R5wAAE</Id>
+      <LastModifiedDateUtcTicks>130794370840000000</LastModifiedDateUtcTicks>
+      <Hash>TcBUBvQFyiQ4HYumpwiXLw==</Hash>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="Objects\Account.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584513327</LastModifiedDateUtcTicks>
+      <Hash>4ldFuUV3Rv+gAqJbSgU8Lg==</Hash>
+    </Object>
+    <Object Include="Objects\AccountContactRole.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584513327</LastModifiedDateUtcTicks>
+      <Hash>cBimrkrAVhVgovsIrQB0/A==</Hash>
+    </Object>
+    <Object Include="Objects\Activity.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>X01rGzt/DQeaEkwseIrnBw==</Hash>
+    </Object>
+    <Object Include="Objects\asd__c.object">
+      <SubType>Object</SubType>
+      <Id>01I20000000mCosEAE</Id>
+      <LastModifiedDateUtcTicks>130849750584513327</LastModifiedDateUtcTicks>
+      <Hash>mlo3FwhjYUPspyMgJHrGkA==</Hash>
+    </Object>
+    <Object Include="Objects\Asset.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>pPK7ww42R0rWsEdbj1sGLg==</Hash>
+    </Object>
+    <Object Include="Objects\Campaign.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>f/f51gaY3AOzAE9T4plg+Q==</Hash>
+    </Object>
+    <Object Include="Objects\CampaignMember.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584513327</LastModifiedDateUtcTicks>
+      <Hash>3KrhPWZt09o43+Kqf9KxWQ==</Hash>
+    </Object>
+    <Object Include="Objects\Case.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>GCt1pwTtZ7/BJiGTle4hBQ==</Hash>
+    </Object>
+    <Object Include="Objects\CaseContactRole.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>+Quv9jCB0hDuqO8+IjQQxw==</Hash>
+    </Object>
+    <Object Include="Objects\Contact.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>Ehy+d4OudEYIwZBQDarR2g==</Hash>
+    </Object>
+    <Object Include="Objects\ContentVersion.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>NiPrHXz1/gSy3cr13lXMRA==</Hash>
+    </Object>
+    <Object Include="Objects\Contract.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>h3GgA2GkNuhinLKT94kXbw==</Hash>
+    </Object>
+    <Object Include="Objects\ContractContactRole.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>HVdqXcQE9QooTM3AGZQx/w==</Hash>
+    </Object>
+    <Object Include="Objects\DuplicateRecordItem.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>qzpz8u7YhB8KcOvijA5Heg==</Hash>
+    </Object>
+    <Object Include="Objects\DuplicateRecordSet.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>wGWx+WWW6IQtuTlvBsTsSw==</Hash>
+    </Object>
+    <Object Include="Objects\Event.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>VLo9Ge8lSJ6JnF9vScflCQ==</Hash>
+    </Object>
+    <Object Include="Objects\FeedItem.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584513327</LastModifiedDateUtcTicks>
+      <Hash>OgvcPNvkIFtObow4bAArow==</Hash>
+    </Object>
+    <Object Include="Objects\ForecastingCategoryMapping.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>U24WANmuGogztWOMF+eYww==</Hash>
+    </Object>
+    <Object Include="Objects\Idea.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584513327</LastModifiedDateUtcTicks>
+      <Hash>Si8+WyaauXjvoViQdFTYVw==</Hash>
+    </Object>
+    <Object Include="Objects\LabelObjects__c.object">
+      <SubType>Object</SubType>
+      <Id>01I20000000nIelEAE</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>3jQeGNwQ3v1iwhuDVQhd9Q==</Hash>
+    </Object>
+    <Object Include="Objects\Lead.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584513327</LastModifiedDateUtcTicks>
+      <Hash>pFHRaKq5g+1Fe9a1t2i4yQ==</Hash>
+    </Object>
+    <Object Include="Objects\Macro.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584513327</LastModifiedDateUtcTicks>
+      <Hash>flEIGl1Dhufd+1veHTedRA==</Hash>
+    </Object>
+    <Object Include="Objects\MacroAction.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584513327</LastModifiedDateUtcTicks>
+      <Hash>U24WANmuGogztWOMF+eYww==</Hash>
+    </Object>
+    <Object Include="Objects\MacroInstruction.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584513327</LastModifiedDateUtcTicks>
+      <Hash>U24WANmuGogztWOMF+eYww==</Hash>
+    </Object>
+    <Object Include="Objects\Opportunity.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>0qvFum3x5ge7TUK52F0bMg==</Hash>
+    </Object>
+    <Object Include="Objects\OpportunityCompetitor.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>4iNQujxsP5sVO8ylDf8ekg==</Hash>
+    </Object>
+    <Object Include="Objects\OpportunityContactRole.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>cBimrkrAVhVgovsIrQB0/A==</Hash>
+    </Object>
+    <Object Include="Objects\OpportunityLineItem.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>9lYpy2vQqjlOKqe41Q6HvQ==</Hash>
+    </Object>
+    <Object Include="Objects\PartnerRole.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>tjQ/PljGs0a/ViX9tZG0gQ==</Hash>
+    </Object>
+    <Object Include="Objects\Pricebook2.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584513327</LastModifiedDateUtcTicks>
+      <Hash>GaSA8Q3mrFDs88ovFgwN9Q==</Hash>
+    </Object>
+    <Object Include="Objects\PricebookEntry.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>Ys5JeLtZsUWGLUPAxwMdUQ==</Hash>
+    </Object>
+    <Object Include="Objects\Product2.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584513327</LastModifiedDateUtcTicks>
+      <Hash>tyBE8SoPvyRGnd225pFfSw==</Hash>
+    </Object>
+    <Object Include="Objects\Site.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>U24WANmuGogztWOMF+eYww==</Hash>
+    </Object>
+    <Object Include="Objects\Solution.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>9EBFbpFdBstTxu6Q1PS3dw==</Hash>
+    </Object>
+    <Object Include="Objects\StreamingChannel.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>vSHxL5MjTtwXpLnfzqvQfQ==</Hash>
+    </Object>
+    <Object Include="Objects\Task.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>lGhE9ZSvDHSwOYEWhed1+g==</Hash>
+    </Object>
+    <Object Include="Objects\Test_Object3__c.object">
+      <SubType>Object</SubType>
+      <Id>01I20000000nRjJEAU</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>22WRoK+b1hN2bgOCICQnFg==</Hash>
+    </Object>
+    <Object Include="Objects\Test_Object_New__c.object">
+      <SubType>Object</SubType>
+      <Id>01I20000000nRjTEAU</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>yoIuHUj56J+ZtW/qbHhyyA==</Hash>
+    </Object>
+    <Object Include="Objects\Test_Object__c.object">
+      <SubType>Object</SubType>
+      <Id>01I20000000nRjEEAU</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>Fwz+AqggeGDO8nAYrhav9Q==</Hash>
+    </Object>
+    <Object Include="Objects\User.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584513327</LastModifiedDateUtcTicks>
+      <Hash>w4ssq8EJpUB+FdrqX5uD1w==</Hash>
+    </Object>
+    <Object Include="Objects\UserProvisioningRequest.object">
+      <SubType>Object</SubType>
+      <Id>000000000000000AAA</Id>
+      <LastModifiedDateUtcTicks>130849750584523354</LastModifiedDateUtcTicks>
+      <Hash>tNFwon9LgSytMiZEgujTeQ==</Hash>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZip Include="StaticResources\ic">
+      <SubType>StaticResourceZip</SubType>
+      <Id>081200000000qoQAAQ</Id>
+      <LastModifiedDateUtcTicks>130848832670000000</LastModifiedDateUtcTicks>
+      <Hash>XYIOgjPNMdWzLafxbvpb+A==</Hash>
+    </StaticZip>
+    <StaticZip Include="StaticResources\SiteSamples">
+      <SubType>StaticResourceZip</SubType>
+      <Id>081200000000nyCAAQ</Id>
+      <LastModifiedDateUtcTicks>130844584970000000</LastModifiedDateUtcTicks>
+      <Hash>S3hkNdUOcNqblkZSqV/kEw==</Hash>
+    </StaticZip>
+    <StaticZip Include="StaticResources\TestStatic1">
+      <SubType>StaticResourceZip</SubType>
+      <Id>081200000000qdwAAA</Id>
+      <LastModifiedDateUtcTicks>130818724580000000</LastModifiedDateUtcTicks>
+      <Hash>WOQ69KoOHHfzkVNjZzhViQ==</Hash>
+    </StaticZip>
+    <StaticZip Include="StaticResources\ZipWithOneFileInside">
+      <SubType>StaticResourceZip</SubType>
+      <Id>081200000000qwyAAA</Id>
+      <LastModifiedDateUtcTicks>130843838820000000</LastModifiedDateUtcTicks>
+      <Hash>OjMCZkTClD+bfQIoOVfbMg==</Hash>
+    </StaticZip>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\ic\css\css.txt">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>ic</StaticResource>
+      <StaticResourcePath>StaticResources\ic\css\css.txt</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\ic\css\newFileToCs.txt">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>ic</StaticResource>
+      <StaticResourcePath>StaticResources\ic\css\newFileToCs.txt</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\ic\fonts\fonts.txt">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>ic</StaticResource>
+      <StaticResourcePath>StaticResources\ic\fonts\fonts.txt</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\ic\js\js.txt">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>ic</StaticResource>
+      <StaticResourcePath>StaticResources\ic\js\js.txt</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\ic\js\newFileToJs.txt">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>ic</StaticResource>
+      <StaticResourcePath>StaticResources\ic\js\newFileToJs.txt</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\SiteSamples\facebook56.svg">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>SiteSamples</StaticResource>
+      <StaticResourcePath>StaticResources\SiteSamples\facebook56.svg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\SiteSamples\img\clock.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>SiteSamples</StaticResource>
+      <StaticResourcePath>StaticResources\SiteSamples\img\clock.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\SiteSamples\img\construction.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>SiteSamples</StaticResource>
+      <StaticResourcePath>StaticResources\SiteSamples\img\construction.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\SiteSamples\img\unauthorized.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>SiteSamples</StaticResource>
+      <StaticResourcePath>StaticResources\SiteSamples\img\unauthorized.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\SiteSamples\img\warning.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>SiteSamples</StaticResource>
+      <StaticResourcePath>StaticResources\SiteSamples\img\warning.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\SiteSamples\log4net (1).config">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>SiteSamples</StaticResource>
+      <StaticResourcePath>StaticResources\SiteSamples\log4net (1).config</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\SiteSamples\log4net.config">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>SiteSamples</StaticResource>
+      <StaticResourcePath>StaticResources\SiteSamples\log4net.config</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\SiteSamples\SiteStyles.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>SiteSamples</StaticResource>
+      <StaticResourcePath>StaticResources\SiteSamples\SiteStyles.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\ChatData.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\ChatData.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\DPIC_Nissan.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\DPIC_Nissan.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\btn_livechat_hover.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\btn_livechat_hover.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\btn_livechat_normal.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\btn_livechat_normal.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\btn_livechat_offline.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\btn_livechat_offline.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\btn_livechat_offline_hover.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\btn_livechat_offline_hover.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\DPIC_Nissan_header.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\DPIC_Nissan_header.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\DPIC_Nissan_header_Mobile.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\DPIC_Nissan_header_Mobile.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\DPIC_Nissan_Infiniti_header.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\DPIC_Nissan_Infiniti_header.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\DPIC_Nissan_Infiniti_header_Mobile.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\DPIC_Nissan_Infiniti_header_Mobile.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\infiniti_close_window.gif">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\infiniti_close_window.gif</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\infiniti_end_session.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\infiniti_end_session.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\infiniti_header.jpg">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\infiniti_header.jpg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\infiniti_start_chat.gif">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\infiniti_start_chat.gif</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\infiniti_submit.gif">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\infiniti_submit.gif</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\leaf_bg.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\leaf_bg.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\leaf_bg_cases.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\leaf_bg_cases.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\LiveAgent_DPIC_Resized_Close.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\LiveAgent_DPIC_Resized_Close.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\LiveAgent_Resized_Close.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\LiveAgent_Resized_Close.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\LiveAgent_Resized_Submit.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\LiveAgent_Resized_Submit.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\LiveAgen_DPIC_Resized_Submit.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\LiveAgen_DPIC_Resized_Submit.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\livechat_bg.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\livechat_bg.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\livechat_bg_no_footer.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\livechat_bg_no_footer.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\livechat_infinity_bg.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\livechat_infinity_bg.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\livechat_infinity_bg_no_footer.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\livechat_infinity_bg_no_footer.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\load.gif">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\load.gif</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_bg.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_bg.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_bg_blank.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_bg_blank.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_bg_blank_Mobile.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_bg_blank_Mobile.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_bg_exit.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_bg_exit.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_bg_Mobile_Landscape.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_bg_Mobile_Landscape.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_bg_Mobile_Portrait.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_bg_Mobile_Portrait.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_offline.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_offline.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_start_chat.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_start_chat.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewDPIC_start_chat.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewDPIC_start_chat.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_bg.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_bg.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_bg_cases.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_bg_cases.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_bg_cases_Mobile.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_bg_cases_Mobile.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_header.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_header.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_header_Mobile.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_header_Mobile.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_header_Mobile_cuted.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_header_Mobile_cuted.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_header_regular.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_header_regular.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_offline.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_offline.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_start_chat.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_start_chat.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewLeaf_header.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewLeaf_header.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_bg.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_bg.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_bg_cases.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_bg_cases.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_bg_cases_Mobile.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_bg_cases_Mobile.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_header.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_header.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_header_Mobile_Portrait.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_header_Mobile_Portrait.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_header_regular.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_header_regular.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_Infiniti_Regular.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_Infiniti_Regular.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_offline.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_offline.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_start_chat.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_start_chat.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\nissan_end_session.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\nissan_end_session.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\nissan_header.gif">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\nissan_header.gif</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\nissan_start_chat.gif">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\nissan_start_chat.gif</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\InfinitiPostChat_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\InfinitiPostChat_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\Infiniti_Direct_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\Infiniti_Direct_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\LeafStyle.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\LeafStyle.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\Leaf_Direct_Complete_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\Leaf_Direct_Complete_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\LiveAgent_IFS_Direct_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\LiveAgent_IFS_Direct_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\NCV.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\NCV.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\NCVPostChat_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\NCVPostChat_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\NCV_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\NCV_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\NewInfiniti.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\NewInfiniti.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\NewInfinitiPostChat_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\NewInfinitiPostChat_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\NewInfiniti_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\NewInfiniti_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\NewLeafDirect_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\NewLeafDirect_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\NewLeafPostChat_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\NewLeafPostChat_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\NewNissan.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\NewNissan.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\NewNissanPostChat_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\NewNissanPostChat_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\NewNissan_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\NewNissan_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\NewNissan_bg.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\NewNissan_bg.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\NissanStyle.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\NissanStyle.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\Nissan_Direct_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\Nissan_Direct_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\PostChat_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\PostChat_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\ZipWithOneFileInside\Windows\Pass.txt">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>ZipWithOneFileInside</StaticResource>
+      <StaticResourcePath>StaticResources\ZipWithOneFileInside\Windows\Pass.txt</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <Static Include="StaticResources\CssFileBut.xml">
+      <SubType>StaticResource</SubType>
+      <Id>081200000000oNRAAY</Id>
+      <LastModifiedDateUtcTicks>130844711620000000</LastModifiedDateUtcTicks>
+      <Hash>dgY4LUuYPkI70W4EltM82g==</Hash>
+    </Static>
+    <Static Include="StaticResources\empty.resource">
+      <SubType>StaticResource</SubType>
+      <Id>081200000000p9WAAQ</Id>
+      <LastModifiedDateUtcTicks>130777110820000000</LastModifiedDateUtcTicks>
+      <Hash>ikgNtATeJY+aed/CN/M0Pw==</Hash>
+    </Static>
+    <Static Include="StaticResources\Image.png">
+      <SubType>StaticResource</SubType>
+      <Id>081200000000o9tAAA</Id>
+      <LastModifiedDateUtcTicks>130770182130000000</LastModifiedDateUtcTicks>
+      <Hash>c0DJAUd8zQIscWDmg8vupw==</Hash>
+    </Static>
+    <Static Include="StaticResources\ImageFromDesctop.png">
+      <SubType>StaticResource</SubType>
+      <Id>081200000000oA3AAI</Id>
+      <LastModifiedDateUtcTicks>130766004640000000</LastModifiedDateUtcTicks>
+      <Hash>0oHtpEpyBeDjoKch2uNSjA==</Hash>
+    </Static>
+    <Static Include="StaticResources\ZipedFileNotUnziped.resource">
+      <SubType>StaticResource</SubType>
+      <Id>081200000000o9oAAA</Id>
+      <LastModifiedDateUtcTicks>130846382840000000</LastModifiedDateUtcTicks>
+      <Hash>NoLX7OOSM6KmlSdw+P3L6g==</Hash>
+    </Static>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Build.targets" />
+</Project>

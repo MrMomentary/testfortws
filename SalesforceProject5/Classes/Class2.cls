@@ -1,0 +1,1 @@
+public class Class2 { integer a = 1882;}//gfdgdfgdfgdf
